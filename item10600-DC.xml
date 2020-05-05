@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Prima riga è il prologo -->
+<library xmlns:dc="http://purl.org/dc/elements/1.1/" xml:id="WDL">
+	<item n="10600" xml:id="WDL-10600">
+		<dc:identifier>https://www.wdl.org/en/item/10600/</dc:identifier>
+		<dc:title>Minor Works of Dante Alighieri</dc:title>
+		<dc:description>
+		<img source="immagini/opere-dante.jpg"/>This small manuscript, dating to the <date>late-15th century</date>, in Renaissance script, contains poems from the Rime (Rhymes) by the great Italian poet <person>Dante Alighieri</person> (1265–1321).
+		These are so-called minor works that are distinguished from Dante's <work>Vita nuova</work> (The new life), his book of sonnets recounting his early love for Beatrice, and his all-encompassing allegorical masterpiece, La divina commedia (The divine comedy).
+		On the front cover is a 15th-century note, now almost totally faded, which states: <q>"Di Cosimo de' Medici e degli Amici" </q>(Belonging to Cosimo de' Medici and his friends).
+		The manuscript is bound in a composite codex that gathers together five manuscripts of different ages (dating from the end of the 13th century to circa 1521) and provenance, and which are also dissimilar in layout, graphic style, and format.
+		</dc:description>
+		<dc:creator>Dante Alighieri</dc:creator>
+		<dc:date type="subject">1280-1321</dc:date>
+		<dc:date type="creation">1450-1499</dc:date>
+		<dc:language>Italian</dc:language>
+		<dc:title>Rime</dc:title>
+		<dc:coverage>Italy</dc:coverage>
+		<dc:subject type="classification-scheme">Literature &#38; rhetoric Literatures of Italian, Dalmatian, Romanian, Rhaetian, Sardinian, Corsican languages Italian poetry</dc:subject>
+		<dc:type>Codex</dc:type>
+		<dc:type>Manuscript</dc:type>
+		<dc:format>Illumination</dc:format>
+		<dc:format>48 folios ; parchment with illuminations ; 135 × 89 millimeters</dc:format>
+		<dc:source xml:id="BCI">Biblioteca comunale degli Intronati.</dc:source>
+		<dc:source xml:id="BCIJMC">The Biblioteca comunale degli Intronati for The James Madison Council.</dc:source>
+		<dc:source xml:id="MIDPS">Manuscripts, incunables, drawings and prints (Siena: 2011).</dc:source>
+		<dc:provenance>Municipal Library Intronati</dc:provenance>
+		<dc:relation>Illuminated Manuscripts from Europe</dc:relation>
+	</item>
+</library>

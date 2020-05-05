@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Prima riga è il prologo -->
+<collezione>
+	<item numero="10600" xml:id="https://www.wdl.org/en/item/10600/">
+		<identificativo>https://www.wdl.org/en/item/10600/</identificativo>
+		<titolo>Minor Works of Dante Alighieri</titolo>
+		<descrizione>
+		<immagine sorgente="immagini/opere-dante.jpg"/>This small manuscript, dating to the <data>late-15th century</data>, in Renaissance script, contains poems from the Rime (Rhymes) by the great Italian poet <persona>Dante Alighieri</persona> (1265–1321).
+		These are so-called minor works that are distinguished from Dante's <opera>Vita nuova</opera> (The new life), his book of sonnets recounting his early love for Beatrice, and his all-encompassing allegorical masterpiece, La divina commedia (The divine comedy).
+		On the front cover is a 15th-century note, now almost totally faded, which states: <citazione>"Di Cosimo de' Medici e degli Amici" </citazione>(Belonging to Cosimo de' Medici and his friends).
+		The manuscript is bound in a composite codex that gathers together five manuscripts of different ages (dating from the end of the 13th century to circa 1521) and provenance, and which are also dissimilar in layout, graphic style, and format.
+		</descrizione>
+		<metadati>
+			<autore>Dante Alighieri</autore>
+			<data>1450-1499</data>
+			<contenuto>Literature &#38; rhetoric Literatures of Italian, Dalmatian, Romanian, Rhaetian, Sardinian, Corsican languages Italian poetry</contenuto>
+			<lingua>Italian</lingua>
+			<titolo>Rime</titolo>
+			<luogo>Italy</luogo>
+			<soggetti>
+				<soggetto numero="1">Codex</soggetto>
+				<soggetto numero="2">Illumination</soggetto>
+				<soggetto numero="3">Italian poetry</soggetto>
+			</soggetti>
+			<bibliografia>
+				<libro numero="1">Biblioteca comunale degli Intronati.</libro>
+				<libro numero="2">The Biblioteca comunale degli Intronati for The James Madison Council.</libro>
+				<libro numero="3">Manuscripts, incunables, drawings and prints (Siena: 2011).</libro>
+			</bibliografia>
+		</metadati>
+	</item>
+</collezione>

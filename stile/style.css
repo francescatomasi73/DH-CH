@@ -1,0 +1,150 @@
+/* L'asterisco si riferisce a tutti gli elementi HTML, ovvero tutti i selettori del CSS. 
+Il box-sizing Serve a settare la struttura generale della pagina */
+* {
+  box-sizing: border-box;
+}
+
+/* Propietà del BODY: tipologia di font e colore di sfondo; */
+body {
+  font-family: "Arial";
+  background-color: #ff8080;
+}
+
+/* Proprietà dell'HEADER: colore di sfondo, distanza contenuto dal contenitore (padding), 
+allineamento del testo, dimensione del carattere, colore del carattere */
+header {
+  background-color: #990000;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* NAV, SECTION e ASIDE su 3 colonne. Vanno in float 
++ percentuale di occupazione rispetto al 100% della pagina */
+
+/* Proprietà della NAV: spostamento a sinistra (float) + dimensioni del box */
+nav {
+  float: left;
+  width: 20%;
+  padding: 20px;
+}
+
+/* Proprietà della SECTION: spostamento a sinistra + dimensioni del box */
+section {
+  float: left;
+  padding: 10px;
+  width: 60%;
+  background-color: #ffe6e6;
+}
+
+/* Proprietà dell'ASIDE: spostamento a sinistra + dimensioni del box */
+aside {
+  float: left;
+  width: 20%;
+  padding: 20px;
+}
+
+/* Proprietà del FOOTER: riallocazione nel flusso della pagina (clear:both) */
+footer {
+  background-color: #800000;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  height:150px;
+  font-size: 20px;
+  clear: both;
+}
+
+/* Proprietà dell'immagine all'interno della DIV con ID intro */
+#intro img
+{
+  float:left;
+  width:280px;
+  height:240px;
+  padding-right:10px;
+}
+
+/* Proprietà dell'immagine all'interno dell'HEADER */
+header img
+{
+  float:left;
+  padding:10px;
+  width:150px;
+  height:150px;
+}
+
+/* Proprietà della tabella */
+table, tr, th, td
+{
+  border: 5px double black;
+}
+
+/* Proprietà del TH */
+th
+{
+  text-align: left;
+}
+
+/* Proprietà dei titoli H1, H2 e H3 */
+h1, h2, h3
+{  
+  font-family: "Courier";
+}
+
+/* Proprietà dell'UL della navbar: elimino i punti dell'elenco 
+e stabilisco l'occupazione della lista dentro al box di contenimento */
+nav ul {
+  list-style-type: none;
+  width: 60%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Proprietà dei link A della navbar. Elimino la sottolineatura.
+Essendo A elemento inline, con block lo trasformo */
+nav li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Proprietà dell'hover per i link della navbar (effetti sul link al passaggio del mouse) */
+nav li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+/* Proprietà della class persone */
+.persone {
+  background-color:#e6fff5;
+  border-bottom: 2px dotted gray;
+}
+
+/* Proprietà della class date */
+.date {
+  background-color:#e6ecff;
+  border-bottom: 2px dotted gray;
+}
+
+/* Proprietà della class info */
+.info {
+  text-align:right;
+}
+
+/* Proprietà della sezione con ID meta */
+#meta {
+  font-family:"Tahoma";
+}
+
+/* Proprietà dell'H1 dell'ID intro */
+#intro h1 {
+  font-size:35px;
+}
+
+/* Proprietà dell'H2 dell'ID multimedia */
+#multimedia h2 {
+  font-size:20px;
+}
