@@ -1,0 +1,172 @@
+<!-- Doctype declaration -->
+<!DOCTYPE html>
+<!-- Elemento radice HTML (che si chiude in fondo al documento)-->
+<html lang="en">
+<!-- Elemento di 1 livello gerarchico HEAD -->
+<head>
+<!-- TITLE dipende gerarchicamente da HEAD -->
+  <title>Minor Works by Dante Alighieri</title>
+<!-- Set di metadati epressi con il tag META -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8"/>
+  <meta name="description" content="Descrizione del codice delle Opere minori' di Dante, conservato presso la biblioteca municipale degli Intronati"/>
+  <meta name="keywords" content="Dante,Opere minori,Rime,1400,codice,Intronati"/>
+  <meta name="author" content="Francesca Tomasi"/>
+<!-- Set metadati Dublin Core -->
+<META NAME="DC.Title" CONTENT="Nome dato alla risorsa">
+<META NAME="DC.Creator" CONTENT="Entità che ha la responsabilità principale della produzione del contenuto">
+<META NAME="DC.Subject" CONTENT="Argomento principale della risorsa">
+<META NAME="DC.Description" CONTENT="Spiegazione del contenuto della risorsa">
+<META NAME="DC.Publisher" CONTENT="Entità responsabile della pubblicazione della risorsa">
+<META NAME="DC.Contributor" CONTENT="Entità responsabile della produzione di un contributo">
+<META NAME="DC.Date" CONTENT="Data associata ad un evento del ciclo di vita della risorsa">
+<META NAME="DC.Type" CONTENT="Natura o genere del contenuto della risorsa (categoria, funzione o genere)">
+<META NAME="DC.Format" CONTENT="Manifestazione fisica o digitale della risorsa">
+<META NAME="DC.Identifier" CONTENT="Riferimento univoco alla risorsa nell’ambito di un dato contesto (URI)">
+<META NAME="DC.Source" CONTENT="Riferimento a una risorsa dalla quale è derivata la risorsa in oggetto">
+<META NAME="DC.Language" CONTENT="Lingua del contenuto intellettuale della risorsa">
+<META NAME="DC.Relation" CONTENT="Riferimento ad una risorsa correlata"/>
+<META NAME="DC.Rights" CONTENT="Informazione sui diritti esercitati sulla risorsa"/>
+
+<!-- Collegamento al foglio di stile esterno -->
+  <link rel="stylesheet" type="text/css" href="stile/style.css"/>
+<!-- Chiusura di HEAD -->
+</head>
+
+<!-- Elemento di pari livello gerarchico dell'HEAD è il BODY -->
+<body>
+<!-- Struttura generale della pagina: 
+  HEADER, NAV, SECTION (con 2 DIV differenziate da ID), ASIDE, FOOTER -->
+
+<!-- Elemento semantico HEADER (testata) con immagine e titolo -->
+  <header>
+<!-- IMG per inserire immagine, H1 per dare il titolo di 1 livello -->
+    <img src="immagini/WDL-LOGO.png" alt="Immagine delle opere minori di Dante"/>
+    <h1>WDL - Word Digital Library</h1>
+  </header>
+
+<!-- Elemento semantico NAV (strumento di navigazione del sito) con titolo e lista con link -->
+  <nav>
+    <h2>Navbar</h2>
+<!-- Lista puntata UL con i list items LI e i link A -->
+    <ul>
+        <li><a href="">&#127968; Home</a></li>
+        <li><a href="">&#9201; Timelines</a></li>
+        <li><a href="">&#128218; Themes</a></li>
+        <li><a href="">&#127760; Maps</a></li>
+        <li><a href="">&#128193; Explore</a></li>
+    </ul>
+  </nav>
+  
+  <!-- Elemento semantico SECTION (generica partizione strutturale) -->
+  <section>
+  <!-- Gerarchicamente dipendenti da SECTION mettiamo 2 DIV con ID per qualificarle univocamente e poterle distinguere -->
+  <div id="intro">
+    <h1><!-- Entità caratteri per i simboli &#number; --> &#9733; Minor Works of Dante Alighieri &#9733;</h1>
+    <hr/>
+<!-- Paragrafo P con una serie di elementi intertestuali fra cui SPAN con attributo CLASS + TITLE, STRONG, EM, BR/ -->
+    <p><a href="immagini/opere-dante-grande.jpg" title="Apre l'immagine in dimensione superiore" target="_blank"><img src="immagini/opere-dante.jpg" alt="Immagine delle opere minori di Dante"/></a>This small manuscript, dating to the <span class="date" title="data">late-15th century</span>, in Renaissance script, contains poems from the <em><strong>Rime</strong></em> (Rhymes) by the great Italian poet <span class="persone" title="persona">Dante Alighieri</span> <span class="date" title="data">(1265–1321)</span>. <br/>These are so-called <strong>minor works</strong> that are distinguished from Dante's <em>Vita nuova</em> (The new life), his book of sonnets recounting his early love for <span class="persone" title="persona">Beatrice</span>, and his all-encompassing allegorical masterpiece, <em>La divina commedia</em> (The divine comedy). <br/>On the front cover is a <span class="date" title="data">15th-century</span> note, now almost totally faded, which states: "Di <span class="persone" title="persona">Cosimo de' Medici</span> e degli Amici" (Belonging to Cosimo de' Medici and his friends). <br/>The manuscript is bound in a <strong>composite codex</strong> that gathers together five manuscripts of different ages (dating from the end of the 13th century to circa 1521) and provenance, and which are also dissimilar in layout, graphic style, and format.</p>
+
+<!-- Spostiamo qui il paragrafo (con class per gestire alcune proprietà nel CSS) con il link alla pagina di WDL -->
+    <p class="info">Questa pagina prende ispirazione dall'<a href="https://www.wdl.org/en/item/10600/" target="_blank" title="Apre in finestra nuova">item 10600 di WDL</a></p>
+  </div>
+
+<!-- Elemento vuoto HR per creare un filetto di separazione fra le 2 DIV -->
+  <hr/>
+
+  <!-- Seconda DIV della SECTION con titolo e tabella -->
+  <div id="meta">
+    <h2>Metadati descrittivi</h2>
+<!-- Elemento TABLE per la tabella, con TR per le righe, TH per le celle di intestazione, TD per le celle con i dati -->
+        <table>
+          <tr>
+            <th>
+              <h3>Author</h3>
+            </th>
+            <td>Dante Alighieri</td>
+          </tr>
+          <tr>
+            <th>
+              <h3>Date</h3>
+            </th>
+            <td>1450-1499</td>
+          </tr>
+          <tr>
+            <th>
+              <h3>Topic</h3>
+            </th>
+            <td>Literature & rhetoric Literatures of Italian, Dalmatian, Romanian, Rhaetian, Sardinian, Corsican languages Italian poetry
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <h3>Language</h3>
+            </th>
+            <td>Italian</td>
+          </tr>
+          <tr>
+            <th><h3>Title</h3></th>
+            <td>Rime</td>
+          </tr>
+          <tr>
+            <th><h3>Place</h3></th>
+            <td>Italy</td>
+          </tr>
+          <tr>
+            <th>
+              <h3>Additional subjects</h3>
+            </th>
+            <td>
+              <ul>
+                <li>Codex</li>
+                <li>Illumination</li>
+                <li>Italian poetry</li>
+              </ul>
+            </td>
+          </tr>
+            <tr>
+            <th>
+              <h3>References</h3>
+            </th>
+            <td>
+              <ol>
+                <li>Biblioteca comunale degli Intronati.</li>
+                <li>The Biblioteca comunale degli Intronati for The James Madison Council.</li>
+                <li>Manuscripts, incunables, drawings and prints (Siena: 2011).</li>
+              </ol>
+            </td>
+          </tr>
+        </table>
+    </div>
+    <p>Collegamento al file <a href="item10600.xml" target="_blank" title="Apre in finestra nuova">XML ben formato</a></p>
+    <p>Collegamento al file <a href="item10600-DC.xml" target="_blank">XML Dublin Core</a></p>
+    <p>Collegamento al file <a href="">XML TEI</a></p>
+  </section>
+
+<!-- Elemento semantico ASIDE (navigazione contestuale) -->
+  <aside>
+    <h2>Collegamenti contestuali</h2>
+    <div id="multimedia">
+        <h2>Video delle opere di Dante</h2>
+        <p>Il video è tratto da YouTube</p>
+<!-- Elemento IFRAME per incorporare oggetti esterni (un video, una mappa, la pagina stessa) -->
+        <iframe width="240" height="115" src="https://www.youtube.com/embed/VvMiHvGargw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <hr/>
+        <h2>Mappa dell'Accademia degli intronati di Siena</h2>
+        <p>Geolocalizzazione dell'Accademia</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2902.8405750731317!2d11.32869101531752!3d43.317596679134276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a2cba13ae0679%3A0xa3c5bda09df2a5a4!2sAccademia%20Senese%20Degli%20Intronati!5e0!3m2!1sit!2sit!4v1588074069024!5m2!1sit!2sit" width="240" height="115" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <hr/>
+        <h2>Iframe con contenuta questa pagina</h2>
+        <p><iframe src="esercizioDanteWDL.htm" width="240" height="115"></iframe></p>
+    </div>
+  </aside>
+
+
+<!-- Elemento semantico FOOTER (piede di pagina per attribuzione di paternità, data e contesto) -->
+  <footer>
+     <p><!-- Riferimento all'entità carattere &name; --> &copy; Francesca Tomasi 2020 </p><p> Esercizio realizzato durante il corso di Digital Humanities e Patrimonio Culturale, Università di Bologna</p>
+  </footer>
+
+</body>
+</html>
